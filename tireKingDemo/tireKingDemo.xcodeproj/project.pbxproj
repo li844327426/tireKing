@@ -12,6 +12,8 @@
 		0F119B561E7637A100E58206 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B551E7637A100E58206 /* StoreViewController.swift */; };
 		0F119B581E7637AD00E58206 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B571E7637AD00E58206 /* MeViewController.swift */; };
 		0F119B5F1E763F2500E58206 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B5E1E763F2500E58206 /* FindViewController.swift */; };
+		0F119B6B1E76685600E58206 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B691E76685600E58206 /* HomeTableViewCell.swift */; };
+		0F119B6C1E76685600E58206 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F119B6A1E76685600E58206 /* HomeTableViewCell.xib */; };
 		0F903C4C1E762B0300EFA700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C4B1E762B0300EFA700 /* AppDelegate.swift */; };
 		0F903C511E762B0300EFA700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C4F1E762B0300EFA700 /* Main.storyboard */; };
 		0F903C531E762B0300EFA700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C521E762B0300EFA700 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 		0F119B571E7637AD00E58206 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		0F119B5E1E763F2500E58206 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		0F119B621E7648C700E58206 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		0F119B691E76685600E58206 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		0F119B6A1E76685600E58206 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		0F903C481E762B0300EFA700 /* tireKingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tireKingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F903C4B1E762B0300EFA700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F903C501E762B0300EFA700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		0F119B441E7636EC00E58206 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				0F119B691E76685600E58206 /* HomeTableViewCell.swift */,
+				0F119B6A1E76685600E58206 /* HomeTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -435,6 +441,7 @@
 			files = (
 				0F903C561E762B0300EFA700 /* LaunchScreen.storyboard in Resources */,
 				0F903C531E762B0300EFA700 /* Assets.xcassets in Resources */,
+				0F119B6C1E76685600E58206 /* HomeTableViewCell.xib in Resources */,
 				0F903C511E762B0300EFA700 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +517,7 @@
 			files = (
 				0F119B581E7637AD00E58206 /* MeViewController.swift in Sources */,
 				0F119B561E7637A100E58206 /* StoreViewController.swift in Sources */,
+				0F119B6B1E76685600E58206 /* HomeTableViewCell.swift in Sources */,
 				0F903C4C1E762B0300EFA700 /* AppDelegate.swift in Sources */,
 				0F119B521E76378400E58206 /* RootViewController.swift in Sources */,
 				0F119B541E76379900E58206 /* HomeViewController.swift in Sources */,
