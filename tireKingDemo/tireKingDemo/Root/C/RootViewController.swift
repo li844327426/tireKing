@@ -48,7 +48,5 @@ class RootViewController: UITabBarController {
         let tabArray = [homeNav, storeNav, findNav, meNav]
         
         self.viewControllers = tabArray
-        
-
     }
 }
