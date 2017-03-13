@@ -12,7 +12,6 @@
 		0F119B561E7637A100E58206 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B551E7637A100E58206 /* StoreViewController.swift */; };
 		0F119B581E7637AD00E58206 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F119B571E7637AD00E58206 /* MeViewController.swift */; };
 		0F903C4C1E762B0300EFA700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C4B1E762B0300EFA700 /* AppDelegate.swift */; };
-		0F903C4E1E762B0300EFA700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C4D1E762B0300EFA700 /* ViewController.swift */; };
 		0F903C511E762B0300EFA700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C4F1E762B0300EFA700 /* Main.storyboard */; };
 		0F903C531E762B0300EFA700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C521E762B0300EFA700 /* Assets.xcassets */; };
 		0F903C561E762B0300EFA700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C541E762B0300EFA700 /* LaunchScreen.storyboard */; };
@@ -44,7 +43,6 @@
 		0F119B571E7637AD00E58206 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		0F903C481E762B0300EFA700 /* tireKingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tireKingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F903C4B1E762B0300EFA700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F903C4D1E762B0300EFA700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F903C501E762B0300EFA700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F903C521E762B0300EFA700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F903C551E762B0300EFA700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -241,7 +239,6 @@
 			isa = PBXGroup;
 			children = (
 				0F903C4B1E762B0300EFA700 /* AppDelegate.swift */,
-				0F903C4D1E762B0300EFA700 /* ViewController.swift */,
 				0F903C4F1E762B0300EFA700 /* Main.storyboard */,
 				0F119B491E7636EC00E58206 /* Root */,
 				0F119B411E7636EC00E58206 /* Home */,
@@ -409,7 +406,6 @@
 			files = (
 				0F119B581E7637AD00E58206 /* MeViewController.swift in Sources */,
 				0F119B561E7637A100E58206 /* StoreViewController.swift in Sources */,
-				0F903C4E1E762B0300EFA700 /* ViewController.swift in Sources */,
 				0F903C4C1E762B0300EFA700 /* AppDelegate.swift in Sources */,
 				0F119B521E76378400E58206 /* RootViewController.swift in Sources */,
 				0F119B541E76379900E58206 /* HomeViewController.swift in Sources */,
