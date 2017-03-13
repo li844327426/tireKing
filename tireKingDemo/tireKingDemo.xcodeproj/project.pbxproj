@@ -671,7 +671,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yang/Desktop/demo/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -686,7 +686,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yang/Desktop/demo/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

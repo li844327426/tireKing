@@ -34,10 +34,8 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
         let tableView = UITableView(frame: view.bounds, style: .plain)
         tableView.dataSource = self
         tableView.delegate = self
-        let bannerImages = [UIImage.init(named: "11"),UIImage.init(named: "11")]
-        print(bannerImages)
-        let bannerView = SDCycleScrollView(frame: CGRect.init(x: 0, y: 0, width: view.bounds.size.width, height: 160), imageNamesGroup: bannerImages)
-        
+        let bannerImages = [UIImage.init(named: "banner"), UIImage.init(named: "banner"),]
+        let bannerView = SDCycleScrollView(frame: CGRect.init(x: 0, y: 0, width: view.bounds.size.width, height: 230), imageNamesGroup: bannerImages)
         bannerView?.backgroundColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         bannerView?.delegate = self
         tableView.tableHeaderView = bannerView
