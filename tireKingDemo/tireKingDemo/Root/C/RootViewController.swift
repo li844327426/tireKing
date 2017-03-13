@@ -22,27 +22,31 @@ class RootViewController: UITabBarController {
     // 创建一个tabbar的控制器
     func creatSubViewController() {
         // 创建首页Home
-        let homeVC = HomeViewController()
-        let homeItem: UITabBarItem = UITabBarItem (title: "首页", image: nil, selectedImage: nil)
-        homeVC.tabBarItem = homeItem
+        // 导航条
+        let homeNav = UINavigationController(rootViewController: HomeViewController())
+        homeNav.tabBarItem = UITabBarItem.init(title: "首页", image: nil, selectedImage: nil)
+       
+        
         
         // 创建选胎store
-        let storeVC = StoreViewController()
-        let storeItem: UITabBarItem = UITabBarItem (title: "选胎", image: nil, selectedImage: nil)
-        storeVC.tabBarItem = storeItem
+        // 导航条
+        let storeNav = UINavigationController(rootViewController: StoreViewController())
+        storeNav.tabBarItem = UITabBarItem.init(title: "选胎", image: nil, selectedImage: nil)
+   
         
         // 创建发现
-        let findVC = FindViewController()
-        let findItem: UITabBarItem = UITabBarItem (title: "发现", image: nil, selectedImage: nil)
-        findVC.tabBarItem = findItem
+        // 导航条
+        let findNav = UINavigationController(rootViewController: FindViewController())
+        findNav.tabBarItem = UITabBarItem.init(title: "选胎", image: nil, selectedImage: nil)
         
         // 创建我的me
-        let meVC = MeViewController()
-        let meItem: UITabBarItem = UITabBarItem (title: "我的", image: nil, selectedImage: nil)
-        meVC.tabBarItem = meItem
+        // 导航条
+        let meNav = UINavigationController(rootViewController: MeViewController())
+        meNav.tabBarItem = UITabBarItem.init(title: "我的", image: nil, selectedImage: nil)
         
         // 添加自控制器
-        let tabArray = [homeVC, storeVC, findVC, meVC]
+        let tabArray = [homeNav, storeNav, findNav, meNav]
+        
         self.viewControllers = tabArray
         
 
