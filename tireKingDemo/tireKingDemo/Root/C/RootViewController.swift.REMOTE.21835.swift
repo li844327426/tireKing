@@ -44,10 +44,7 @@ class RootViewController: UITabBarController {
         // 添加自控制器
         let tabArray = [homeVC, storeVC, findVC, meVC]
         self.viewControllers = tabArray
-<<<<<<< HEAD
-=======
         
->>>>>>> 213cbbf7d4f7df2b064883ad42d038a4ae94a770
 
     }
 }

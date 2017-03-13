@@ -13,7 +13,7 @@ class RootViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+<<<<<<< HEAD
         // 创建一个tabbar的控制器
         creatSubViewController()
     }
@@ -32,7 +32,7 @@ class RootViewController: UITabBarController {
         storeVC.tabBarItem = storeItem
         
         // 创建发现
-        let findVC = FindViewController()
+        let findVC = StoreViewController()
         let findItem: UITabBarItem = UITabBarItem (title: "发现", image: nil, selectedImage: nil)
         findVC.tabBarItem = findItem
         
@@ -44,10 +44,8 @@ class RootViewController: UITabBarController {
         // 添加自控制器
         let tabArray = [homeVC, storeVC, findVC, meVC]
         self.viewControllers = tabArray
-<<<<<<< HEAD
-=======
         
->>>>>>> 213cbbf7d4f7df2b064883ad42d038a4ae94a770
-
+=======
+>>>>>>> 70189808b0c63fd7d6c97748788aab27d8f0da33
     }
 }
