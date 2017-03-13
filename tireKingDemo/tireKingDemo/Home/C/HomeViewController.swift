@@ -19,7 +19,7 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
         
         
         
-        
+        // 设置表格
         setTableView()
         
 
