@@ -15,12 +15,19 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
 
         // 背景颜色
         view.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
+
         
         
         
         
         setTableView()
         
+
+        // 导航条搜索
+        self.navigationItem.titleView = UISearchBar.init()
+        // 导航条背景色
+        self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 0.5144633651, blue: 0.101094462, alpha: 1)
+
     }
 
     func setTableView() {
