@@ -44,6 +44,7 @@
 		0F119B551E7637A100E58206 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 		0F119B571E7637AD00E58206 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		0F119B5E1E763F2500E58206 /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		0F119B621E7648C700E58206 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		0F903C481E762B0300EFA700 /* tireKingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tireKingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F903C4B1E762B0300EFA700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F903C501E762B0300EFA700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -282,6 +283,7 @@
 				0F903C521E762B0300EFA700 /* Assets.xcassets */,
 				0F903C541E762B0300EFA700 /* LaunchScreen.storyboard */,
 				0F903C571E762B0300EFA700 /* Info.plist */,
+				0F119B621E7648C700E58206 /* BridgeHeader.h */,
 			);
 			path = tireKingDemo;
 			sourceTree = "<group>";
@@ -669,6 +671,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -683,6 +686,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
