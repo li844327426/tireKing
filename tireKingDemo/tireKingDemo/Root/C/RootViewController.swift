@@ -39,6 +39,9 @@ class RootViewController: UITabBarController {
         // 创建发现
         // 导航条
         let findNav = UINavigationController(rootViewController: FindViewController())
+
+        findNav.tabBarItem = UITabBarItem.init(title: "发现", image: nil, selectedImage: nil)
+
         findNav.tabBarItem = UITabBarItem.init(title: "选胎", image: #imageLiteral(resourceName: "TAB_FIND-IMAGE"), selectedImage: #imageLiteral(resourceName: "TAB_FIND-SELECTEDIMAGE").withRenderingMode(.alwaysOriginal))
         
         // 创建我的me

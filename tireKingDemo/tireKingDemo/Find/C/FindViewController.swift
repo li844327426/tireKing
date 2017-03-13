@@ -18,6 +18,8 @@ class FindViewController: UIViewController {
         self.navigationItem.title = "发现"
         // 导航条背景色
         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 1, green: 0.5144633651, blue: 0.101094462, alpha: 1)
+        
+        
     }
 
 }
