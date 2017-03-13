@@ -71,5 +71,7 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
             return 200
         }
     }
+    
+    
 
 }
