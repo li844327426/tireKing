@@ -20,11 +20,20 @@
 		0F903C561E762B0300EFA700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C541E762B0300EFA700 /* LaunchScreen.storyboard */; };
 		0F903C611E762B0300EFA700 /* tireKingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C601E762B0300EFA700 /* tireKingDemoTests.swift */; };
 		0F903C6C1E762B0300EFA700 /* tireKingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C6B1E762B0300EFA700 /* tireKingDemoUITests.swift */; };
+<<<<<<< HEAD
 		2FEA5B991E768050007E8A0A /* FindToolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA5B971E768050007E8A0A /* FindToolTableViewCell.swift */; };
 		2FEA5B9A1E768050007E8A0A /* FindToolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA5B981E768050007E8A0A /* FindToolTableViewCell.xib */; };
 		2FEA5B9D1E76810A007E8A0A /* ToolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA5B9C1E76810A007E8A0A /* ToolButton.swift */; };
 		2FEA5BA01E76AE29007E8A0A /* FindNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEA5B9E1E76AE29007E8A0A /* FindNewsTableViewCell.swift */; };
 		2FEA5BA11E76AE29007E8A0A /* FindNewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA5B9F1E76AE29007E8A0A /* FindNewsTableViewCell.xib */; };
+=======
+		0FDE821F1E768D8C00380897 /* ClassifyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDE821D1E768D8C00380897 /* ClassifyCollectionViewCell.swift */; };
+		0FDE82201E768D8C00380897 /* ClassifyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE821E1E768D8C00380897 /* ClassifyCollectionViewCell.xib */; };
+		0FDE82231E76A6CD00380897 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDE82211E76A6CD00380897 /* TopTableViewCell.swift */; };
+		0FDE82241E76A6CD00380897 /* TopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE82221E76A6CD00380897 /* TopTableViewCell.xib */; };
+		0FDE82271E76B1B700380897 /* TireTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDE82251E76B1B700380897 /* TireTableViewCell.swift */; };
+		0FDE82281E76B1B700380897 /* TireTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDE82261E76B1B700380897 /* TireTableViewCell.xib */; };
+>>>>>>> 07ff948bc0bb95e843c3f1c52230cc8c3624df7e
 		AE234D306DFA811F5689E764 /* libPods-tireKingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEE1BCD18B6ABF5F56B71BF /* libPods-tireKingDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -66,11 +75,20 @@
 		0F903C671E762B0300EFA700 /* tireKingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tireKingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F903C6B1E762B0300EFA700 /* tireKingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tireKingDemoUITests.swift; sourceTree = "<group>"; };
 		0F903C6D1E762B0300EFA700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		2FEA5B971E768050007E8A0A /* FindToolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindToolTableViewCell.swift; path = tireKingDemo/FindToolTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		2FEA5B981E768050007E8A0A /* FindToolTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FindToolTableViewCell.xib; path = tireKingDemo/FindToolTableViewCell.xib; sourceTree = SOURCE_ROOT; };
 		2FEA5B9C1E76810A007E8A0A /* ToolButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolButton.swift; sourceTree = "<group>"; };
 		2FEA5B9E1E76AE29007E8A0A /* FindNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindNewsTableViewCell.swift; path = tireKingDemo/Tool/FindNewsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		2FEA5B9F1E76AE29007E8A0A /* FindNewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FindNewsTableViewCell.xib; path = tireKingDemo/Tool/FindNewsTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+=======
+		0FDE821D1E768D8C00380897 /* ClassifyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyCollectionViewCell.swift; sourceTree = "<group>"; };
+		0FDE821E1E768D8C00380897 /* ClassifyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassifyCollectionViewCell.xib; sourceTree = "<group>"; };
+		0FDE82211E76A6CD00380897 /* TopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		0FDE82221E76A6CD00380897 /* TopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopTableViewCell.xib; sourceTree = "<group>"; };
+		0FDE82251E76B1B700380897 /* TireTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TireTableViewCell.swift; sourceTree = "<group>"; };
+		0FDE82261E76B1B700380897 /* TireTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TireTableViewCell.xib; sourceTree = "<group>"; };
+>>>>>>> 07ff948bc0bb95e843c3f1c52230cc8c3624df7e
 		6563FBB00CFEAB88CA7F4F31 /* Pods-tireKingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tireKingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E2D0598C551BD37E88595407 /* Pods-tireKingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tireKingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		ECEE1BCD18B6ABF5F56B71BF /* libPods-tireKingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tireKingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +160,12 @@
 			children = (
 				0F119B691E76685600E58206 /* HomeTableViewCell.swift */,
 				0F119B6A1E76685600E58206 /* HomeTableViewCell.xib */,
+				0FDE821D1E768D8C00380897 /* ClassifyCollectionViewCell.swift */,
+				0FDE821E1E768D8C00380897 /* ClassifyCollectionViewCell.xib */,
+				0FDE82211E76A6CD00380897 /* TopTableViewCell.swift */,
+				0FDE82221E76A6CD00380897 /* TopTableViewCell.xib */,
+				0FDE82251E76B1B700380897 /* TireTableViewCell.swift */,
+				0FDE82261E76B1B700380897 /* TireTableViewCell.xib */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -462,12 +486,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FDE82201E768D8C00380897 /* ClassifyCollectionViewCell.xib in Resources */,
 				0F903C561E762B0300EFA700 /* LaunchScreen.storyboard in Resources */,
 				0F903C531E762B0300EFA700 /* Assets.xcassets in Resources */,
+				0FDE82281E76B1B700380897 /* TireTableViewCell.xib in Resources */,
 				0F119B6C1E76685600E58206 /* HomeTableViewCell.xib in Resources */,
 				2FEA5BA11E76AE29007E8A0A /* FindNewsTableViewCell.xib in Resources */,
 				2FEA5B9A1E768050007E8A0A /* FindToolTableViewCell.xib in Resources */,
 				0F903C511E762B0300EFA700 /* Main.storyboard in Resources */,
+				0FDE82241E76A6CD00380897 /* TopTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,16 +567,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				2FEA5B991E768050007E8A0A /* FindToolTableViewCell.swift in Sources */,
+=======
+				0FDE821F1E768D8C00380897 /* ClassifyCollectionViewCell.swift in Sources */,
+>>>>>>> 07ff948bc0bb95e843c3f1c52230cc8c3624df7e
 				0F119B581E7637AD00E58206 /* MeViewController.swift in Sources */,
 				0F119B561E7637A100E58206 /* StoreViewController.swift in Sources */,
+				0FDE82271E76B1B700380897 /* TireTableViewCell.swift in Sources */,
 				0F119B6B1E76685600E58206 /* HomeTableViewCell.swift in Sources */,
 				0F903C4C1E762B0300EFA700 /* AppDelegate.swift in Sources */,
 				2FEA5BA01E76AE29007E8A0A /* FindNewsTableViewCell.swift in Sources */,
 				0F119B521E76378400E58206 /* RootViewController.swift in Sources */,
 				0F119B541E76379900E58206 /* HomeViewController.swift in Sources */,
 				0F119B5F1E763F2500E58206 /* FindViewController.swift in Sources */,
+<<<<<<< HEAD
 				2FEA5B9D1E76810A007E8A0A /* ToolButton.swift in Sources */,
+=======
+				0FDE82231E76A6CD00380897 /* TopTableViewCell.swift in Sources */,
+>>>>>>> 07ff948bc0bb95e843c3f1c52230cc8c3624df7e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,7 +743,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/yang/Desktop/demo/tireKingDemo/tireKingDemo/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -722,7 +758,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Frank.tireKingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/yang/Desktop/demo/tireKingDemo/tireKingDemo/BridgeHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/a11/Desktop/tireKing/tireKingDemo/tireKingDemo/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

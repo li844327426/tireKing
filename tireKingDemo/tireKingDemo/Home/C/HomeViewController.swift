@@ -19,7 +19,7 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
         
         
         
-        
+        // 设置表格
         setTableView()
         
 
@@ -39,13 +39,26 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
         bannerView?.backgroundColor = #colorLiteral(red: 0.7450980544, green: 0.1568627506, blue: 0.07450980693, alpha: 1)
         bannerView?.delegate = self
         tableView.tableHeaderView = bannerView
+        tableView.register(UINib.init(nibName: "HomeTableViewCell", bundle: nil), forCellReuseIdentifier: "HomeTableViewCell")
+        tableView.register(UINib.init(nibName: "TopTableViewCell", bundle: nil), forCellReuseIdentifier: "TopTableViewCell")
         view.addSubview(tableView)
     }
     
     //MARK: UITableViewDataSource
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: "22")
-        return cell
+        
+        switch indexPath.section {
+        case 1:
+            let cell = tableView .dequeueReusableCell(withIdentifier: "TopTableViewCell", for: indexPath) as! TopTableViewCell
+            return cell
+        case 2:
+            let cell = tableView .dequeueReusableCell(withIdentifier: "HomeTableViewCell", for: indexPath) as! HomeTableViewCell
+            return cell
+        default:
+            return UITableViewCell(style: .default, reuseIdentifier: "11")
+        }
+        
+        
         
     }
     
@@ -64,9 +77,9 @@ class HomeViewController: UIViewController, SDCycleScrollViewDelegate, UITableVi
         case 0:
             return 100
         case 1:
-            return 80
+            return 160
         default:
-            return 200
+            return 500
         }
     }
     
