@@ -13,6 +13,7 @@ class RootViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+<<<<<<< HEAD
         // 创建一个tabbar的控制器
         creatSubViewController()
     }
@@ -44,5 +45,7 @@ class RootViewController: UITabBarController {
         let tabArray = [homeVC, storeVC, findVC, meVC]
         self.viewControllers = tabArray
         
+=======
+>>>>>>> 70189808b0c63fd7d6c97748788aab27d8f0da33
     }
 }
