@@ -17,6 +17,7 @@
 		0F903C561E762B0300EFA700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F903C541E762B0300EFA700 /* LaunchScreen.storyboard */; };
 		0F903C611E762B0300EFA700 /* tireKingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C601E762B0300EFA700 /* tireKingDemoTests.swift */; };
 		0F903C6C1E762B0300EFA700 /* tireKingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F903C6B1E762B0300EFA700 /* tireKingDemoUITests.swift */; };
+		AE234D306DFA811F5689E764 /* libPods-tireKingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEE1BCD18B6ABF5F56B71BF /* libPods-tireKingDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		0F903C671E762B0300EFA700 /* tireKingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tireKingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F903C6B1E762B0300EFA700 /* tireKingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tireKingDemoUITests.swift; sourceTree = "<group>"; };
 		0F903C6D1E762B0300EFA700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6563FBB00CFEAB88CA7F4F31 /* Pods-tireKingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tireKingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E2D0598C551BD37E88595407 /* Pods-tireKingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tireKingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ECEE1BCD18B6ABF5F56B71BF /* libPods-tireKingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tireKingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE234D306DFA811F5689E764 /* libPods-tireKingDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +227,8 @@
 				0F903C5F1E762B0300EFA700 /* tireKingDemoTests */,
 				0F903C6A1E762B0300EFA700 /* tireKingDemoUITests */,
 				0F903C491E762B0300EFA700 /* Products */,
+				200956BC92D814ACEA211AAB /* Pods */,
+				4C7B744A3E4A9F2413770286 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +277,23 @@
 			path = tireKingDemoUITests;
 			sourceTree = "<group>";
 		};
+		200956BC92D814ACEA211AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D0598C551BD37E88595407 /* Pods-tireKingDemo.debug.xcconfig */,
+				6563FBB00CFEAB88CA7F4F31 /* Pods-tireKingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C7B744A3E4A9F2413770286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECEE1BCD18B6ABF5F56B71BF /* libPods-tireKingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F903C701E762B0300EFA700 /* Build configuration list for PBXNativeTarget "tireKingDemo" */;
 			buildPhases = (
+				B9DAA17B7F7A50167CC8BACB /* [CP] Check Pods Manifest.lock */,
 				0F903C441E762B0300EFA700 /* Sources */,
 				0F903C451E762B0300EFA700 /* Frameworks */,
 				0F903C461E762B0300EFA700 /* Resources */,
+				7C258038B01144BB499CCD3A /* [CP] Embed Pods Frameworks */,
+				E0A1F5834BCD3D0EE5E1F6E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -398,6 +425,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C258038B01144BB499CCD3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9DAA17B7F7A50167CC8BACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A1F5834BCD3D0EE5E1F6E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tireKingDemo/Pods-tireKingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F903C441E762B0300EFA700 /* Sources */ = {
@@ -558,6 +633,7 @@
 		};
 		0F903C711E762B0300EFA700 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D0598C551BD37E88595407 /* Pods-tireKingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tireKingDemo/Info.plist;
@@ -570,6 +646,7 @@
 		};
 		0F903C721E762B0300EFA700 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6563FBB00CFEAB88CA7F4F31 /* Pods-tireKingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tireKingDemo/Info.plist;
